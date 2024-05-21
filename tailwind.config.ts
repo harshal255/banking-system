@@ -85,7 +85,8 @@ const config = {
       },
       fontFamily: {
         inter: "var(--font-inter)",
-        "ibm-plex-serif": "var(--font-ibm-plex-serif)",
+        "ubuntu":"var(--ubuntu)",
+        "josefin-sans":"var(--josefin-sans)"
       },
       keyframes: {
         "accordion-down": {
