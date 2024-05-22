@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.variable} ${JosefinSans.variable} ${inter}`}>{children}</body>
+      <body suppressHydrationWarning={true} className={`${ubuntu.variable} ${JosefinSans.variable} ${inter}`}>{children}</body>
     </html>
   );
 }
