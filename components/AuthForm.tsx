@@ -53,6 +53,9 @@ const AuthForm = ({ type }: { type: string }) => {
 
                 const newUser = await signUp(userData);
                 setUser(newUser);
+                setTimeout(() => {
+                    router.push('/sign-in');
+                }, 1200);
             }
             if (type === 'sign-in') {
                 const response = await signIn({ email: values.email, password: values.password });
